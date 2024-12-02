@@ -1,86 +1,120 @@
-//
-//  ContentView.swift
-//  challenge_unit25
-//
-//  Created by Wander.Hobbit on 12/2/24.
-//
-
-
 import SwiftUI
 
 struct ContentView: View {
-    @State private var countries = ["Rock", "Paper", "Scissors"].shuffled()
-    @State private var correctAnswer = Int.random(in: 0...2)
+    let moves = ["✊", "✋", "✌️"] // Rock, Paper, Scissors emojis
     
-    @State private var showingScore = false
-    @State private var scoreTitle = ""
+    @State private var appMove = Int.random(in: 0...2)
+    @State private var shouldWin = Bool.random()
+    
     @State private var score = 0
+    @State private var round = 1
+    @State private var showingAlert = false
+    @State private var alertTitle = ""
+    @State private var alertMessage = ""
 
-    func flagTapped(_ number: Int) {
-        if number == correctAnswer {
-            scoreTitle = "Correct!"
-            score += 1
+    func handlePlayerMove(_ playerMove: Int) {
+        let winCondition: Bool
+        
+        if shouldWin {
+            winCondition = playerMove == (appMove + 1) % 3 // Player must win
         } else {
-            scoreTitle = "Wrong! That's the flag for \(countries[number])."
+            winCondition = playerMove == (appMove + 2) % 3 // Player must lose
         }
-        showingScore = true
-    }
-    func askQuestion() {
-        countries.shuffle()
-        correctAnswer = Int.random(in: 0...2)
+        
+        if winCondition {
+            score += 1
+            alertTitle = "Correct!"
+        } else {
+            // score -= 1
+            alertTitle = "Wrong!"
+        }
+        
+        //alertMessage = "App chose \(moves[appMove]). You were asked to \(shouldWin ? "Win" : "Lose")."
+        
+        showingAlert = true
     }
     
-    var body: some View {
+    func nextRound() {
+        if round == 10 {
+            alertTitle = "Game Over"
+            alertMessage = "Your final score is \(score)."
+            showingAlert = true
+            round = 0
+            score = 0
+        } else {
+            appMove = Int.random(in: 0...2)
+            shouldWin = Bool.random()
+            round += 1
+        }
+    }
 
+    var body: some View {
         ZStack {
             RadialGradient(stops: [
-                .init(color: Color(red: 0.1, green: 0.12, blue: 0.145), location: 0.3),
-                .init(color: Color(red: 0.376, green: 0.215, blue: 0.26), location: 0.3),
-            ], center: .center, startRadius: 10, endRadius: 800)
-                .ignoresSafeArea()
-            VStack(spacing: 15) {
+                .init(color: Color(red: 0.1, green: 0.12, blue: 0.145), location: 0.1),
+                .init(color: Color(red: 0.376, green: 0.215, blue: 0.26), location: 0.8),
+            ], center: .center, startRadius: 10, endRadius: 500)
+            .ignoresSafeArea()
+            
+            VStack(spacing: 20) {
+                Spacer()
+
+                Text("Rock, Paper, Scissors")
+                    .font(.largeTitle.weight(.bold))
+                    .foregroundStyle(.white)
+                
+                Text("Score: \(score)")
+                    .foregroundStyle(.white)
+                    .font(.title.bold())
+                
+                Spacer()
+                Spacer()
+                
                 VStack {
-                    Spacer()
-                    Text("Rock, Paper, Scissors")
-                        .font(.largeTitle.weight(.bold))
+                    Text("App chose: \(moves[appMove])")
+                        .font(.largeTitle)
                         .foregroundStyle(.white)
-                    Spacer()
-                    Spacer()
-                    Text("Score: \(score)")
+                    
+                    Text("Your goal: ")
                         .foregroundStyle(.white)
-                        .font(.title.bold())
-                    // current VStack(spacing: 15) code
-                    Spacer()
-                }
-                VStack {
-                    Text("Tap the flag of")
-                        .font(.subheadline.weight(.heavy))
-                        .foregroundStyle(.secondary)
-                    Text(countries[correctAnswer])
-                        .font(.largeTitle.weight(.semibold))
-                        .foregroundStyle(.white)
+                    +
+                    Text(shouldWin ? "Win" : "Lose")
+                        .foregroundColor(shouldWin ? .green : .red)
+                        .font(.title2.bold())
                 }
                 
-                ForEach(0..<3) { number in
-                    Button {
-                        flagTapped(number)
-                    } label: {
-                        Image(countries[number])
-                            .clipShape(.capsule)
-                            .shadow(radius: 5)
+                Spacer()
+                
+                HStack(spacing: 20) {
+                    ForEach(0..<3) { index in
+                        Button {
+                            handlePlayerMove(index)
+                        } label: {
+                            Text(moves[index])
+                                .font(.system(size: 40))
+                                .padding()
+                                .background(.ultraThinMaterial)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                        }
                     }
                     
                 }
+                
+                Text("Round: \(round)/10")
+                    .foregroundStyle(.white)
+                    .font(.title2)
+                
+                Spacer()
+                Spacer()
+
+                
             }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 40)
-            .background(.regularMaterial)
-            .clipShape(.rect(cornerRadius: 20))
+            .padding()
         }
-        .alert(scoreTitle, isPresented: $showingScore) {
-            Button("Continue", action: askQuestion)
+        .alert(alertTitle, isPresented: $showingAlert) {
+            Button("Next", action: nextRound)
         } message: {
-            Text("Your score is \(score)")
+            Text(alertMessage)
         }
     }
 }
