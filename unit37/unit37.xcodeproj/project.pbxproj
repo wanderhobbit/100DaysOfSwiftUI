@@ -6,68 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6F898CE32D00CE30003B4103 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F898CE22D00CE30003B4103 /* start.txt */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		6F5260652D000CD500A186A7 /* PBXContainerItemProxy */ = {
+		6FD3FF9D2D063CCF00630CAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6F52604C2D000CD400A186A7 /* Project object */;
+			containerPortal = 6FD3FF842D063CCE00630CAD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F5260532D000CD400A186A7;
-			remoteInfo = WordScramble;
+			remoteGlobalIDString = 6FD3FF8B2D063CCE00630CAD;
+			remoteInfo = unit37;
 		};
-		6F52606F2D000CD500A186A7 /* PBXContainerItemProxy */ = {
+		6FD3FFA72D063CCF00630CAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6F52604C2D000CD400A186A7 /* Project object */;
+			containerPortal = 6FD3FF842D063CCE00630CAD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F5260532D000CD400A186A7;
-			remoteInfo = WordScramble;
+			remoteGlobalIDString = 6FD3FF8B2D063CCE00630CAD;
+			remoteInfo = unit37;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F5260542D000CD400A186A7 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F5260642D000CD500A186A7 /* WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F52606E2D000CD500A186A7 /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F898CE22D00CE30003B4103 /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		6FD3FF8C2D063CCE00630CAD /* unit37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unit37.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD3FF9C2D063CCF00630CAD /* unit37Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unit37Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD3FFA62D063CCF00630CAD /* unit37UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unit37UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6F5260562D000CD400A186A7 /* WordScramble */ = {
+		6FD3FF8E2D063CCE00630CAD /* unit37 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WordScramble;
+			path = unit37;
 			sourceTree = "<group>";
 		};
-		6F5260672D000CD500A186A7 /* WordScrambleTests */ = {
+		6FD3FF9F2D063CCF00630CAD /* unit37Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WordScrambleTests;
+			path = unit37Tests;
 			sourceTree = "<group>";
 		};
-		6F5260712D000CD500A186A7 /* WordScrambleUITests */ = {
+		6FD3FFA92D063CCF00630CAD /* unit37UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WordScrambleUITests;
+			path = unit37UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F5260512D000CD400A186A7 /* Frameworks */ = {
+		6FD3FF892D063CCE00630CAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F5260612D000CD500A186A7 /* Frameworks */ = {
+		6FD3FF992D063CCF00630CAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F52606B2D000CD500A186A7 /* Frameworks */ = {
+		6FD3FFA32D063CCF00630CAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,23 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F52604B2D000CD400A186A7 = {
+		6FD3FF832D063CCE00630CAD = {
 			isa = PBXGroup;
 			children = (
-				6F5260562D000CD400A186A7 /* WordScramble */,
-				6F5260672D000CD500A186A7 /* WordScrambleTests */,
-				6F5260712D000CD500A186A7 /* WordScrambleUITests */,
-				6F5260552D000CD400A186A7 /* Products */,
-				6F898CE22D00CE30003B4103 /* start.txt */,
+				6FD3FF8E2D063CCE00630CAD /* unit37 */,
+				6FD3FF9F2D063CCF00630CAD /* unit37Tests */,
+				6FD3FFA92D063CCF00630CAD /* unit37UITests */,
+				6FD3FF8D2D063CCE00630CAD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6F5260552D000CD400A186A7 /* Products */ = {
+		6FD3FF8D2D063CCE00630CAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F5260542D000CD400A186A7 /* WordScramble.app */,
-				6F5260642D000CD500A186A7 /* WordScrambleTests.xctest */,
-				6F52606E2D000CD500A186A7 /* WordScrambleUITests.xctest */,
+				6FD3FF8C2D063CCE00630CAD /* unit37.app */,
+				6FD3FF9C2D063CCF00630CAD /* unit37Tests.xctest */,
+				6FD3FFA62D063CCF00630CAD /* unit37UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,135 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F5260532D000CD400A186A7 /* WordScramble */ = {
+		6FD3FF8B2D063CCE00630CAD /* unit37 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F5260782D000CD500A186A7 /* Build configuration list for PBXNativeTarget "WordScramble" */;
+			buildConfigurationList = 6FD3FFB02D063CCF00630CAD /* Build configuration list for PBXNativeTarget "unit37" */;
 			buildPhases = (
-				6F5260502D000CD400A186A7 /* Sources */,
-				6F5260512D000CD400A186A7 /* Frameworks */,
-				6F5260522D000CD400A186A7 /* Resources */,
+				6FD3FF882D063CCE00630CAD /* Sources */,
+				6FD3FF892D063CCE00630CAD /* Frameworks */,
+				6FD3FF8A2D063CCE00630CAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6F5260562D000CD400A186A7 /* WordScramble */,
+				6FD3FF8E2D063CCE00630CAD /* unit37 */,
 			);
-			name = WordScramble;
+			name = unit37;
 			packageProductDependencies = (
 			);
-			productName = WordScramble;
-			productReference = 6F5260542D000CD400A186A7 /* WordScramble.app */;
+			productName = unit37;
+			productReference = 6FD3FF8C2D063CCE00630CAD /* unit37.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6F5260632D000CD500A186A7 /* WordScrambleTests */ = {
+		6FD3FF9B2D063CCF00630CAD /* unit37Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F52607B2D000CD500A186A7 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */;
+			buildConfigurationList = 6FD3FFB32D063CCF00630CAD /* Build configuration list for PBXNativeTarget "unit37Tests" */;
 			buildPhases = (
-				6F5260602D000CD500A186A7 /* Sources */,
-				6F5260612D000CD500A186A7 /* Frameworks */,
-				6F5260622D000CD500A186A7 /* Resources */,
+				6FD3FF982D063CCF00630CAD /* Sources */,
+				6FD3FF992D063CCF00630CAD /* Frameworks */,
+				6FD3FF9A2D063CCF00630CAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F5260662D000CD500A186A7 /* PBXTargetDependency */,
+				6FD3FF9E2D063CCF00630CAD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6F5260672D000CD500A186A7 /* WordScrambleTests */,
+				6FD3FF9F2D063CCF00630CAD /* unit37Tests */,
 			);
-			name = WordScrambleTests;
+			name = unit37Tests;
 			packageProductDependencies = (
 			);
-			productName = WordScrambleTests;
-			productReference = 6F5260642D000CD500A186A7 /* WordScrambleTests.xctest */;
+			productName = unit37Tests;
+			productReference = 6FD3FF9C2D063CCF00630CAD /* unit37Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6F52606D2D000CD500A186A7 /* WordScrambleUITests */ = {
+		6FD3FFA52D063CCF00630CAD /* unit37UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F52607E2D000CD500A186A7 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */;
+			buildConfigurationList = 6FD3FFB62D063CCF00630CAD /* Build configuration list for PBXNativeTarget "unit37UITests" */;
 			buildPhases = (
-				6F52606A2D000CD500A186A7 /* Sources */,
-				6F52606B2D000CD500A186A7 /* Frameworks */,
-				6F52606C2D000CD500A186A7 /* Resources */,
+				6FD3FFA22D063CCF00630CAD /* Sources */,
+				6FD3FFA32D063CCF00630CAD /* Frameworks */,
+				6FD3FFA42D063CCF00630CAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F5260702D000CD500A186A7 /* PBXTargetDependency */,
+				6FD3FFA82D063CCF00630CAD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6F5260712D000CD500A186A7 /* WordScrambleUITests */,
+				6FD3FFA92D063CCF00630CAD /* unit37UITests */,
 			);
-			name = WordScrambleUITests;
+			name = unit37UITests;
 			packageProductDependencies = (
 			);
-			productName = WordScrambleUITests;
-			productReference = 6F52606E2D000CD500A186A7 /* WordScrambleUITests.xctest */;
+			productName = unit37UITests;
+			productReference = 6FD3FFA62D063CCF00630CAD /* unit37UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6F52604C2D000CD400A186A7 /* Project object */ = {
+		6FD3FF842D063CCE00630CAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					6F5260532D000CD400A186A7 = {
+					6FD3FF8B2D063CCE00630CAD = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					6F5260632D000CD500A186A7 = {
+					6FD3FF9B2D063CCF00630CAD = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 6F5260532D000CD400A186A7;
+						TestTargetID = 6FD3FF8B2D063CCE00630CAD;
 					};
-					6F52606D2D000CD500A186A7 = {
+					6FD3FFA52D063CCF00630CAD = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 6F5260532D000CD400A186A7;
+						TestTargetID = 6FD3FF8B2D063CCE00630CAD;
 					};
 				};
 			};
-			buildConfigurationList = 6F52604F2D000CD400A186A7 /* Build configuration list for PBXProject "WordScramble" */;
+			buildConfigurationList = 6FD3FF872D063CCE00630CAD /* Build configuration list for PBXProject "unit37" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 6F52604B2D000CD400A186A7;
+			mainGroup = 6FD3FF832D063CCE00630CAD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6F5260552D000CD400A186A7 /* Products */;
+			productRefGroup = 6FD3FF8D2D063CCE00630CAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F5260532D000CD400A186A7 /* WordScramble */,
-				6F5260632D000CD500A186A7 /* WordScrambleTests */,
-				6F52606D2D000CD500A186A7 /* WordScrambleUITests */,
+				6FD3FF8B2D063CCE00630CAD /* unit37 */,
+				6FD3FF9B2D063CCF00630CAD /* unit37Tests */,
+				6FD3FFA52D063CCF00630CAD /* unit37UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F5260522D000CD400A186A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F898CE32D00CE30003B4103 /* start.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F5260622D000CD500A186A7 /* Resources */ = {
+		6FD3FF8A2D063CCE00630CAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F52606C2D000CD500A186A7 /* Resources */ = {
+		6FD3FF9A2D063CCF00630CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD3FFA42D063CCF00630CAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F5260502D000CD400A186A7 /* Sources */ = {
+		6FD3FF882D063CCE00630CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F5260602D000CD500A186A7 /* Sources */ = {
+		6FD3FF982D063CCF00630CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F52606A2D000CD500A186A7 /* Sources */ = {
+		6FD3FFA22D063CCF00630CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F5260662D000CD500A186A7 /* PBXTargetDependency */ = {
+		6FD3FF9E2D063CCF00630CAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F5260532D000CD400A186A7 /* WordScramble */;
-			targetProxy = 6F5260652D000CD500A186A7 /* PBXContainerItemProxy */;
+			target = 6FD3FF8B2D063CCE00630CAD /* unit37 */;
+			targetProxy = 6FD3FF9D2D063CCF00630CAD /* PBXContainerItemProxy */;
 		};
-		6F5260702D000CD500A186A7 /* PBXTargetDependency */ = {
+		6FD3FFA82D063CCF00630CAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F5260532D000CD400A186A7 /* WordScramble */;
-			targetProxy = 6F52606F2D000CD500A186A7 /* PBXContainerItemProxy */;
+			target = 6FD3FF8B2D063CCE00630CAD /* unit37 */;
+			targetProxy = 6FD3FFA72D063CCF00630CAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6F5260762D000CD500A186A7 /* Debug */ = {
+		6FD3FFAE2D063CCF00630CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		6F5260772D000CD500A186A7 /* Release */ = {
+		6FD3FFAF2D063CCF00630CAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,14 +388,14 @@
 			};
 			name = Release;
 		};
-		6F5260792D000CD500A186A7 /* Debug */ = {
+		6FD3FFB12D063CCF00630CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"unit37/Preview Content\"";
 				DEVELOPMENT_TEAM = Y6WT2V8BH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,7 +409,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.WordScramble;
+				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.unit37;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -424,14 +417,14 @@
 			};
 			name = Debug;
 		};
-		6F52607A2D000CD500A186A7 /* Release */ = {
+		6FD3FFB22D063CCF00630CAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WordScramble/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"unit37/Preview Content\"";
 				DEVELOPMENT_TEAM = Y6WT2V8BH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.WordScramble;
+				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.unit37;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,7 +446,7 @@
 			};
 			name = Release;
 		};
-		6F52607C2D000CD500A186A7 /* Debug */ = {
+		6FD3FFB42D063CCF00630CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,16 +456,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.WordScrambleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.unit37Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unit37.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/unit37";
 			};
 			name = Debug;
 		};
-		6F52607D2D000CD500A186A7 /* Release */ = {
+		6FD3FFB52D063CCF00630CAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.WordScrambleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.unit37Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unit37.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/unit37";
 			};
 			name = Release;
 		};
-		6F52607F2D000CD500A186A7 /* Debug */ = {
+		6FD3FFB72D063CCF00630CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -499,16 +492,16 @@
 				DEVELOPMENT_TEAM = Y6WT2V8BH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.WordScrambleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.unit37UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WordScramble;
+				TEST_TARGET_NAME = unit37;
 			};
 			name = Debug;
 		};
-		6F5260802D000CD500A186A7 /* Release */ = {
+		6FD3FFB82D063CCF00630CAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -516,55 +509,55 @@
 				DEVELOPMENT_TEAM = Y6WT2V8BH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.WordScrambleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = wander.hobbit.unit37UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WordScramble;
+				TEST_TARGET_NAME = unit37;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F52604F2D000CD400A186A7 /* Build configuration list for PBXProject "WordScramble" */ = {
+		6FD3FF872D063CCE00630CAD /* Build configuration list for PBXProject "unit37" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F5260762D000CD500A186A7 /* Debug */,
-				6F5260772D000CD500A186A7 /* Release */,
+				6FD3FFAE2D063CCF00630CAD /* Debug */,
+				6FD3FFAF2D063CCF00630CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F5260782D000CD500A186A7 /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
+		6FD3FFB02D063CCF00630CAD /* Build configuration list for PBXNativeTarget "unit37" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F5260792D000CD500A186A7 /* Debug */,
-				6F52607A2D000CD500A186A7 /* Release */,
+				6FD3FFB12D063CCF00630CAD /* Debug */,
+				6FD3FFB22D063CCF00630CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F52607B2D000CD500A186A7 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */ = {
+		6FD3FFB32D063CCF00630CAD /* Build configuration list for PBXNativeTarget "unit37Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F52607C2D000CD500A186A7 /* Debug */,
-				6F52607D2D000CD500A186A7 /* Release */,
+				6FD3FFB42D063CCF00630CAD /* Debug */,
+				6FD3FFB52D063CCF00630CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F52607E2D000CD500A186A7 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */ = {
+		6FD3FFB62D063CCF00630CAD /* Build configuration list for PBXNativeTarget "unit37UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F52607F2D000CD500A186A7 /* Debug */,
-				6F5260802D000CD500A186A7 /* Release */,
+				6FD3FFB72D063CCF00630CAD /* Debug */,
+				6FD3FFB82D063CCF00630CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6F52604C2D000CD400A186A7 /* Project object */;
+	rootObject = 6FD3FF842D063CCE00630CAD /* Project object */;
 }
